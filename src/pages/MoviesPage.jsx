@@ -8,6 +8,7 @@ const MoviesPage = () => {
   const [movies, setMovies] = useState([]);
   const [searchParams] = useSearchParams();
   const query = searchParams.get("query");
+  //bar duzeldi
 
   useEffect(() => {
     if (!query) return;
