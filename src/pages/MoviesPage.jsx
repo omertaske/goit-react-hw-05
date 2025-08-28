@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Searchbar from "../component/searchbar";
+import Searchbar from "../component/Searchbar";
 import axios from "axios";
 import { Link, useSearchParams,  } from "react-router-dom";
 import { options1 } from "../data/data_key";
